@@ -14,6 +14,7 @@ PoetryDB (https://github.com/thundercomb/poetrydb/blob/master/README.md)
 
 'http://poetrydb.org/title/a dream within a dream'
 
+```JSON
 [
   {
     "title": "A Dream Within A Dream",
@@ -48,7 +49,7 @@ PoetryDB (https://github.com/thundercomb/poetrydb/blob/master/README.md)
     "linecount": "24"
   }
 ]
- 
+ ```
 
 
 ## Wireframes
