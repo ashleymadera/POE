@@ -95,11 +95,14 @@ https://wireframe.cc/A8fV28
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | HTML | L | 1.5 hrs| hrs | hrs |
-| CSS | L | 4 hrs| hrs | hrs |
+| CSS | L | 4.5hrs| hrs | hrs |
 | Buttons | M | 1 hrs| hrs | hrs |
-| Core JS/Searchlist | H | 6hrs| hrs | hrs |
+| Core J S| H | 6hrs| hrs | hrs |
+| Searchlist | H | 6hrs | hrs | hrs |
 | Working with API | H | 3.5hrs| hrs | hrs |
-| Total | H | 16hrs| hrs | hrs |
+| Debugging | H | 6hrs | hrs | hrs |
+| Additional CSS| L | 6hrs | hrs | hrs|
+| Total | H | 34.5hrs| hrs | hrs |
 
 ## Code Snippet
 
