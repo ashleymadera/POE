@@ -4,9 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
   <title>POE</title>
   <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="main.css">
+  <script defer src="script.js" charset="utf-8"></script>
+
+
 </head>
 
 <body>
@@ -24,14 +29,14 @@
       <h3 class="info"> SEARCH YOUR FAVORITE POETS AND EXPLORE IN THE DEPTH OF LITERATURE AND THOUGHT</h3>
       <div>
         <!-- Search Bar -->
-        <input type="text" id="Author, Title" placeholder="Author or title"><br>
+        <input type="text" id="userInput" placeholder="Author or title"><br>
         <!-- Submit button -->
         <button id="search">Search</button>
       </div>
 
     </section>
     <section class="searchList">
-      <p>LIST</p>
+      <h4>LIST</h4>
     </section>
   </main>
 </body>
