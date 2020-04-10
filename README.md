@@ -74,6 +74,7 @@ https://wireframe.cc/A8fV28
 - Share Button
 - Image slide show above search bar
 - More detailed CSS 
+- Add pagination
 
 ## Project Schedule
 
@@ -117,4 +118,4 @@ async function poemSearch() {
 
 ```
 ## Change Log
- I wanted to change the API to one with more information and poems but I kept getting bug. So the new API is still in post MVP. 
+ I wanted to change the API to one with more information and poems but I kept getting bug. So the new API is still in post MVP. I also added pagination to my post mvp to add pages to my results
