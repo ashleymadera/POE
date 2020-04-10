@@ -2,8 +2,7 @@ window.onload = function () {
   console.log("working");
 
   const DOMAIN = 'http://poetrydb.org/author/';
-  // const API_KEY;
-  // const BASE_URL = ''
+
   const searchButton = document.getElementById('search')
   const input = document.getElementById('userInput')
   let searchList = document.querySelector('h4')
@@ -22,7 +21,7 @@ window.onload = function () {
   }
 
   searchButton.addEventListener('click', searchInput)
-
+  // API call for search information
   async function poemSearch() {
     let keyword = input.value;
     console.log(`${DOMAIN}${keyword}`)
@@ -32,8 +31,7 @@ window.onload = function () {
   }
 
 
-
-
+  //print functon called from search button
   async function printList() {
     let keyword = input.value;
     const URL = await axios.get(`${DOMAIN}${keyword}`)
@@ -57,6 +55,6 @@ window.onload = function () {
     })
 
 
-    // }
+
   }
 }
