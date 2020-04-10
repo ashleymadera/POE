@@ -8,6 +8,7 @@ window.onload = function () {
   let searchList = document.querySelector('h4')
   const searchListSection = document.querySelector('.searchList')
 
+  //functon called from click eventlistener
   function searchInput() {
     searchList.remove()
     searchList = document.createElement('h4')
