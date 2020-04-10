@@ -46,6 +46,7 @@ p{
   display: flex;
   flex-grow: inherit;
   justify-content: center;
+  text-align: center;
   font-size: 16px;
   font-family: 'Bitter', serif;
 }
@@ -81,7 +82,7 @@ button{
   border: 2px solid black; */
   min-height: 300px;
   width: 100%;
-  
+  text-align: center;
   font-family: 'Bitter', serif;
   display: flex;
   flex-direction: column;
@@ -95,3 +96,30 @@ button{
 
 }
 
+@media ( max-width: 1000px)
+{
+
+  main {
+    width: 1000px;
+    margin: 0 auto;
+  background-color: papayawhip;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media ( max-width: 800px)
+{
+
+  main {
+    width:400px;
+    margin: 0 auto;
+  background-color: papayawhip;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}

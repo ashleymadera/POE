@@ -6,9 +6,14 @@ window.onload = function () {
   // const BASE_URL = ''
   const searchButton = document.getElementById('search')
   const input = document.getElementById('userInput')
-
+  let searchList = document.querySelector('h4')
+  const searchListSection = document.querySelector('.searchList')
 
   function searchInput() {
+    searchList.remove()
+    searchList = document.createElement('h4')
+    searchList.innerText = 'List'
+    searchListSection.appendChild(searchList)
     let keyword = input.value;
     console.log(keyword)
     poemSearch()
@@ -23,12 +28,11 @@ window.onload = function () {
     console.log(`${DOMAIN}${keyword}`)
     const response = await axios.get(`${DOMAIN}${keyword}`)
     console.log(response)
-
     printList()
   }
 
 
-  const searchList = document.querySelector('h4')
+
 
   async function printList() {
     let keyword = input.value;
@@ -39,7 +43,6 @@ window.onload = function () {
     listResponse.forEach(data => {
       const div = document.createElement('div')
       div.classList.add('item')
-      // div.style.border = '2px solid black'
       searchList.appendChild(div)
 
       let title = data.title
