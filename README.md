@@ -74,15 +74,16 @@ https://wireframe.cc/A8fV28
 - Share Button
 - Image slide show above search bar
 - More detailed CSS 
+- Add pagination
 
 ## Project Schedule
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|April 6th| Project Proposal/ Approval / Set up app HTML Structure and basic CSS to match Wireframe | Incomplete
-|April 7th| Set up JS with functional API and Clickables| Incomplete
-|April 8th| Display list response / Additional CSS| Incomplete
-|April 9th| MVP done | Incomplete
+|April 6th| Project Proposal/ Approval / Set up app HTML Structure and basic CSS to match Wireframe | complete
+|April 7th| Set up JS with functional API and Clickables| complete
+|April 8th| Display list response / Additional CSS| complete
+|April 9th| MVP done | complete
 |April 10th| Present POE | Incomplete
 
 ## Priority Matrix
@@ -94,20 +95,27 @@ https://wireframe.cc/A8fV28
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| HTML | L | 1.5 hrs| hrs | hrs |
-| CSS | L | 4.5hrs| hrs | hrs |
-| Buttons | M | 1 hrs| hrs | hrs |
-| Core J S| H | 6hrs| hrs | hrs |
-| Searchlist | H | 6hrs | hrs | hrs |
-| Working with API | H | 3.5hrs| hrs | hrs |
-| Debugging | H | 6hrs | hrs | hrs |
-| Additional CSS| L | 6hrs | hrs | hrs|
-| Total | H | 34.5hrs| hrs | hrs |
+| HTML | L | 1.5 hrs| 30mins | 30mins |
+| CSS | L | 4.5hrs| 2hrs | 2hrs |
+| Buttons | M | 1 hrs| 30mins | 30mins |
+| Core J S| H | 6hrs| 4hrs | 4hrs |
+| Searchlist | H | 6hrs | 2hrs | 2hrs |
+| Working with API | H | 3.5hrs| 1hr | 1hr |
+| Debugging | H | 6hrs | 3hr | 3hr |
+| Additional CSS| L | 6hrs | 2hrs | 2hrs|
+| Total | H | 34.5hrs| 13hrs |15 hrs |
 
 ## Code Snippet
+```JSON
 
+async function poemSearch() {
+    let keyword = input.value;
+    console.log(`${DOMAIN}${keyword}`)
+    const response = await axios.get(`${DOMAIN}${keyword}`)
+    console.log(response)
+    printList()
+  }
 
- Pending
-
+```
 ## Change Log
- Pending  
+ I wanted to change the API to one with more information and poems but I kept getting bug. So the new API is still in post MVP. I also added pagination to my post mvp to add pages to my results
