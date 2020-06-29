@@ -1,11 +1,8 @@
-# Project Overview
 
-## Project Name
 
 POE
 
-## Project Description
-
+## Description
 
 POE connects you to hundreds of poems from authors like Edgar Allan Poe, Emily Dickinson, and Robert Frost. Divulge in the depths of thought and literature.
 
